@@ -5,20 +5,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Creed Fragrances</title>
     <style>
-        body {
+        body, html {width: 100%; height: 100%; margin: 0; padding: 0}
+        .container {
             display: flex;
-            height: 100%;
             width: 100%;
-            justify-content: center;
-            align-items: center;
+            height: 100%;
+            flex-direction: column;
+            overflow: hidden;
+        }
+        .Presentacion {
+            flex-grow: 1;
+            border: 0;
         }
     </style>
 </head>
 <body>
-    <iframe
-    src="https://1drv.ms/p/c/a797c70542d675ec/IQMfvzX_lVuORpHsw6UQnEHhAdlrglR3hp2WDnbC7VrBBUQ?em=2&amp;wdAr=1.7770582793709528"
-    width="1280px"
-    height="720px">
-    </iframe>
+    <div class="container">
+        <iframe
+            class="Presentacion"
+            src="https://1drv.ms/p/c/a797c70542d675ec/IQMfvzX_lVuORpHsw6UQnEHhAdlrglR3hp2WDnbC7VrBBUQ?em=2&amp;wdAr=1.7770582793709528">
+        </iframe>
+    </div>
 </body>
 </html>
